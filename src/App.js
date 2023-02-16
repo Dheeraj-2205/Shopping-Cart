@@ -8,6 +8,8 @@ const App = () => {
   return (
     <>
      <h1 className='heading-lg'>heading</h1>
+     <button className='btn'>button</button>
+     <button className='btn btn-black'>button</button>
       <Header/>
       {/* <Index/> */}
       <Homepage/>

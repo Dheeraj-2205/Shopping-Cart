@@ -25,10 +25,35 @@ a{
 .heading-lg{
   font-size :var(--fs-lg);
 }
+.heading-md{
+  font-size: var(--fs-md);
+}
+.heading-sm{
+  font-size: var(--fs-sm);
+}
 
+/* butttons */
+
+.btn{
+  outline : 0;
+  display: inline-block;
+  border : 1px solid #ddd;
+  color : var(--black-color);
+  padding : .5rem 1rem;
+  cursor: pointer;
+  border-radius: var(--b-radius);
+}
+.btn-black{
+  background-color: var(--black-color);
+  color : var(--white-color)
+}
+.btn-black:hover{
+  background-color: var(--white-color);
+  color : var(--black-color)
+}
 @media(min-width:990px){
   :root{
     --fs-lg : 4rem;
-    --fs-sm :1.5rem
+    --fs-md :1.5rem
   }
 }
