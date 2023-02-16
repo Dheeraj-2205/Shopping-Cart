@@ -51,6 +51,38 @@ a{
   background-color: var(--white-color);
   color : var(--black-color)
 }
+.btn-disable{
+  background-color: #ddd;
+  color :#999;
+  cursor: not-allowed;
+}
+
+/* table */
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+table th,
+table td{
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+table tr:nth-child(even){
+  background-color:#999;;
+}
+
+/* f-controls */
+
+.f-controls{
+  background-color: var(--white-color);
+  border: 1px solid #ddd;
+  padding : 0.5rem;
+  width: 100%;
+}
+.f-controls:focus{
+  outline: 0;
+}
 @media(min-width:990px){
   :root{
     --fs-lg : 4rem;
