@@ -7,6 +7,7 @@ import Homepage from './components/homepage/Index'
 const App = () => {
   return (
     <>
+     <h1 className='heading-lg'>heading</h1>
       <Header/>
       {/* <Index/> */}
       <Homepage/>
