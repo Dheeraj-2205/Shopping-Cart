@@ -1,7 +1,7 @@
 .divHeader .divSlideMenu{
     position : fixed;
     top :0;
-    left :100%;
+    left :00%;
     width : 100%;
     height : 100%;
     background: orange;
@@ -24,4 +24,28 @@
     top: 0;
     right: 0;
     z-index: 2;
+}
+
+
+@media(min-width:992px){
+    .divHeader .divSlideMenu{
+        position : static;
+        top :auto;
+        left :auto;
+        width : auto;
+        height : auto;
+        background: transparent;
+        z-index: inherit;
+        transition: all ease-in-out 0.3s;
+    }
+    .divHeader .divSlideMenu ul.dvMenu li{
+        display: inline-block;
+    }
+    .divHeader .divSlideMenu ul.dvMenu li a{
+        display: inline-block;
+        background-color: white;
+        padding: 1rem;
+        border: none;
+        color: #000;
+    }
 }

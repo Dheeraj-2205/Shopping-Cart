@@ -9,8 +9,17 @@ const Header = () => {
             <div className='col d-lg-none'>
               <i class= "fa-solid fa-bars"></i>
             </div>
-            <div className='divSlideMenu'>
-              <button className = "btn btn-black closeBtn"><i class="fa-solid fa-xmark"></i></button>
+            <div className='col col-lg-1 text-center text-lg-left'>
+              <img 
+                width = {50}
+                src="https://static.wixstatic.com/media/2c0034_a27b95faba1d432fbddcf6ac4e9683ba~mv2.png"
+                alt = ""
+              />
+            </div>
+            <div className='divSlideMenu col-lg-10 px-0 px-lg-3'>
+              <button className = "btn btn-black closeBtn d-lg-none">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
               <ul className='dvMenu'>
                 <li>
                   <a href="">Home</a>
@@ -26,15 +35,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            
-            <div className='col text-center text-lg-left'>
-              <img 
-                width = {50}
-                src="https://static.wixstatic.com/media/2c0034_a27b95faba1d432fbddcf6ac4e9683ba~mv2.png"
-                alt = ""
-              />
-            </div>
-            <div className='col text-right'>
+            <div className='col col-lg-10 text-right'>
               <i class ="fa-solid fa-cart-shopping"></i>
             </div>
           </div>
