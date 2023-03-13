@@ -1,0 +1,48 @@
+import React from 'react'
+import "./header.css"
+const Header = () => {
+  return (
+    <>
+      <div className='divHeader'>
+        <div className='container-lg'>
+          <div className='row align-items py-1'>
+            <div className='col d-lg-none'>
+              <i class= "fa-solid fa-bars"></i>
+            </div>
+            <div className='divSlideMenu'>
+              <button className = "btn btn-black closeBtn"><i class="fa-solid fa-xmark"></i></button>
+              <ul className='dvMenu'>
+                <li>
+                  <a href="">Home</a>
+                </li>
+                <li>
+                  <a href="">Shop</a>
+                </li>
+                <li>
+                  <a href="">Login</a>
+                </li>
+                <li>
+                  <a href="">Signup</a>
+                </li>
+              </ul>
+            </div>
+            
+            <div className='col text-center text-lg-left'>
+              <img 
+                width = {50}
+                src="https://static.wixstatic.com/media/2c0034_a27b95faba1d432fbddcf6ac4e9683ba~mv2.png"
+                alt = ""
+              />
+            </div>
+            <div className='col text-right'>
+              <i class ="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </>
+  )
+}
+
+export default Header
