@@ -45,6 +45,7 @@ a{
   border-radius: var(--b-radius);
 }
 .btn-black{
+  text-align: center;
   background-color: var(--black-color);
   color : var(--white-color)
 }
