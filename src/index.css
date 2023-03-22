@@ -43,9 +43,9 @@ a{
   padding : .5rem 1rem;
   cursor: pointer;
   border-radius: var(--b-radius);
+  text-align: center;
 }
 .btn-black{
-  text-align: center;
   background-color: var(--black-color);
   color : var(--white-color)
 }
