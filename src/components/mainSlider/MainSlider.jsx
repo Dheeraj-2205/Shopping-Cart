@@ -9,6 +9,7 @@ const MainSlider = () => {
                 <img src="https://static.wixstatic.com/media/2c0034_5916d66c114c4a3fb055fd0fff15f402~mv2.png" 
                     alt="" 
                     className="img-fluid"
+                    width={100}
                  />
             </div>
             <div className="col-md-6 text-center text-md-left">
