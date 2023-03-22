@@ -3,7 +3,7 @@
   --black-color : #000000;
   --white-color : #ffffff;
   --b-radius : 4px;
-  --fs-lg : 3rem;
+  --fs-lg : 2.5rem;
   --fs-md : 1.25rem;
   --fs-sm :1rem
 }
@@ -87,7 +87,7 @@ table tr:nth-child(even){
 }
 @media(min-width:990px){
   :root{
-    --fs-lg : 4rem;
+    --fs-lg : 3.5rem;
     --fs-md :1.5rem
   }
 }
