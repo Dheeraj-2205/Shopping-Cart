@@ -1,0 +1,12 @@
+.dvYoutube{
+    background-size: cover !important;
+    background-position: center;
+}
+.dvYoutube .opacity{
+    background-color: rgba(0,0,0,0.5);
+    padding: 5rem 2rem;
+    color: white;
+}
+.dvYoutube .fa-play{
+    background-color: transparent;
+}
